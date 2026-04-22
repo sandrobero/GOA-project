@@ -1,0 +1,5 @@
+print("me var sandro")
+print("15 wlis")
+print("me minda gamovide programiri")
+print("da aseve minda mqondes kargi wodeba")
+print("1 gakvetilistvis ar iqneba cudi")
