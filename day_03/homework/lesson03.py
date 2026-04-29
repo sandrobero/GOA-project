@@ -1,0 +1,32 @@
+# Writing- არის კოდების დაწერის პრინციპები
+# Running- ეს აღნიშნავს კოდის გაშვებას
+# Debugging-ეს ნიშნავს შეცდომების გასწორებას
+print(20 + 40)
+print(60 + 31)
+print(55 - 88)
+print(46 - 33)
+print(11 * 6)
+print(33 * 15)
+print(30 / 2)
+print(3000 / 50)
+print(8 // 3)
+print(22 // 10)
+print(67 % 4)
+print(75 % 9)
+# /-მას გამოაქვს 1 მთელი ციფრი(5)
+# //-მას გამოაქვს ათწილადი ციფრი(10.03)
+# case-sensitive-ამას აქვს მნიშვნელობა თუ როგორ დაწერ კოდს
+# case-in-sensitive-მას არ აქვს მნიშვნელობა კოდებს შორის ზომის განსხვავებას
+name=("sandro")
+height=("173")
+surname=("beruashvili")
+sport=("football")
+player=("ronaldo")
+print("hello, I am " + name + surname +". "  "I am " + height + "cm" +". " "my favorite activity is " + sport + ". " "and my favorite in " + sport + " is " + player + ". " )
+num1=(80)
+num2=(42)
+num3=(10)
+print(num1 + num2 + num3)
+print(num1 -int(num2 + num3))
+print(num1 * num2 * num3)
+print(num1 / int(num2 / num3))
