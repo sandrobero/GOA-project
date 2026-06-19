@@ -1,0 +1,51 @@
+<!-- <select>: ეს თეგი ქმნის თავად ჩამოსაშლელ კონტეინერს (ღილაკს, რომელზე დაჭერისასაც მენიუ იშლება) -->
+<!-- <option>: ეს თეგი იწერება <select>-ის შიგნით და განსაზღვრავს იმ ვარიანტებს (არჩევანს) რომლებიც მენიუში გამოჩნდება. -->
+   
+<label for="cars">აირჩიეთ მოდელი:</label>
+<select id="cars" name="cars">
+  <option value="charger">Dodge Charger</option>
+  <option value="challenger">Dodge Challenger</option>
+  <option value="durango">Dodge Durango</option>
+
+</select>
+
+<!-- <option> თეგს უნდა დაუმატო ატრიბუტი selected.მაგალითად, თუ გვინდა, რომ თავიდანვე ჩელენჯერი იყოს არჩეული: -->
+
+    <select id="cars" name="cars">
+  <option value="charger">Dodge Charger</option>
+  <option value="challenger" selected>Dodge Challenger</option> 
+  <option value="durango">Dodge Durango</option>
+</select>
+
+<!-- 1)src: მიუთითებს ვიდეო ფაილის გზას (სად არის შენახული ფაილი ან მისი ლინკი).
+ 2)controls: აჩენს ვიდეოს მართვის ღილაკებს (Play, Pause, ხმის აწევა/დაწევა, სრულ ეკრანზე გაშვება). თუ ამას არ ჩაწერ, ვიდეო უბრალოდ სურათივით დადგება და მომხმარებელი ვერ ჩართავს. 
+ 3)width და height: განსაზღვრავს ვიდეო ფლეიერის სიგანესა და სიმაღლეს პიქსელებში (მაგ. width="500").
+ 4)autoplay: ვიდეო ავტომატურად ჩაირთვება საიტის გახსნისთანავე (ბევრ ბრაუზერში ავტომატური ჩართვა მუშაობს მხოლოდ მაშინ, თუ ხმა ჩაწეულია)
+ 5)loop: როცა ვიდეო დასრულდება, ავტომატურად თავიდან დაიწყება (დატრიალდება წრეზე).
+ და 6)muted: ვიდეოს რთავს უხმოდ.-->
+
+
+    <h2>1</h2>
+    <video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" 
+           width="640" 
+           height="360" 
+           controls 
+           muted>
+  
+    </video>
+
+    <br><br>
+
+    <h2>2</h2>
+    <video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" 
+           width="640" 
+           height="360" 
+           controls 
+           autoplay 
+           muted 
+           loop>
+  
+    </video>
+
+</body>
+</html>
